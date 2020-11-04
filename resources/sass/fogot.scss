@@ -1,0 +1,63 @@
+.forgot-page-wrapper{
+    @include breadcrumb;
+    .content_forgot{
+        margin: 0 auto;
+        .form_forgot{
+            label{
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.36;
+                letter-spacing: normal;
+                text-align: left;
+                color: #333333;
+                margin-bottom: 10px;
+            }
+            input{
+                width: 441px;
+            }
+            margin-top: 30px;
+            input{
+                width: 255px;
+            }
+            .forgot{
+                a{
+                    text-decoration: none;
+                    text-align: left;
+                    color: #707070;
+                    font-size: 12px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: italic;
+                }
+            }
+            .btn-send{
+                width: 120px;
+                height: 40px;
+                border-radius: 6px;
+                background-color: #fc7703;
+                margin-right: 10px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.36;
+                letter-spacing: normal;
+                text-align: center;
+                color: #ffffff;
+            }
+            .btn-cancel{
+                width: 120px;
+                height: 40px;
+                border-radius: 6px;
+                border: solid 1px #666666;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.36;
+                letter-spacing: normal;
+                text-align: center;
+                color: #666666;
+            }
+        }
+    }
+}

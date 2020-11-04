@@ -1,0 +1,87 @@
+.ds-flex{
+    display: flex !important;
+}
+.ml-30{
+    margin-left:30px !important;
+}
+.mt-10{
+    margin-top:10px !important;
+}
+.mt-20{
+    margin-top:20px !important;
+}
+.mt-26{
+    margin-top:26px !important;
+}
+.mt-40{
+    margin-top:40px !important;
+}
+.mt-50{
+    margin-top:50px !important;
+}
+.mt-60{
+    margin-top:60px !important;
+}
+.mb-90{
+    margin-bottom: 90px;
+}
+.ht-50{
+ height: 50px;
+}
+.pd-39{
+    padding: 39px;
+}
+.mr-5p{
+    margin-right: 2px;
+}
+.flex-spb{
+    display: flex;
+    justify-content: space-between; 
+}
+.flex-fe{
+    display: flex;
+    justify-content: flex-end;  
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.mr-10{
+ margin-right: 10px;
+}
+.default_text_color_sale{
+    color: $default_text_color_sale;
+}
+.db{
+    display: block;
+}
+.dib{
+    display: inline-block;
+}
+.flr{
+    float: right !important;
+}
+.Website-Sn-phm-bn-hng{
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #333333;
+}
+.custom_text1{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #707070;
+}
+.center{
+    object-position: 50% 50%;
+}
+.cover{
+    object-fit: cover
+}

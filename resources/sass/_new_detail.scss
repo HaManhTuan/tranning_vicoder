@@ -1,0 +1,121 @@
+.new-detail-wrapper{
+    @include breadcrumb;
+
+    .comment{
+        border: 1px solid #f6f6f6;
+        border-radius: 6px;
+        background-color: #f6f6f6;
+        .title_comment{
+            font-size: 16px;
+            //font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.31;
+            letter-spacing: normal;
+            text-align: left;
+            color: #242424;
+            margin-top: 16px;
+        }
+        .horizontal_line{
+            border: 0.5px solid #d8d8d8 !important;
+        }
+        .form-control{
+            padding: 1.5rem 0.75rem !important;
+            border-radius: 6px !important;
+            background-color: #ffffff;
+        }
+        input::placeholder {
+            font-style: italic;
+          }
+          .btn-comment{
+            width: 142px;
+            height: 45px;
+            border-radius: 6px;
+            border: 1px solid #fc7703;
+            background-color: #fc7703;
+            color: white;
+            //font-weight: bold;
+            font-size: 16px;
+          }
+    }
+    .body-news-other{
+        margin-top: 60px;
+        .list-news-other{
+            ul li{
+                a{
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: italic;
+                    line-height: 40px;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #707070;
+                }
+                list-style: none;
+                margin-left: -40px;
+            }
+        } 
+    }
+    // Extra small devices (portrait phones, less than 576px)
+    @media (max-width: 575.98px) { 
+    .breadcrumb {
+        a{
+            font-size: 11px !important;
+            line-height: 28px;
+        }
+        span{
+            font-size: 11px !important;
+            line-height: 28px;
+        }
+    }
+    .list_product{
+        padding: 20px;
+        font-size: 11px !important;
+    }
+    }
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        .title_bread {
+            a {
+                font-size: 12px;
+            }
+            span {
+                font-size: 11px;
+            }
+        }
+    }
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+
+    }
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        
+    }
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px){
+        
+    }
+    @media  (max-width: 442px) { 
+        .breadcrumb{
+            .title_bread{
+                display: block;
+            }
+            min-height: 70px ;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .new-detail-wrapper .list-comment .comment form input{
+        width: 80% !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .new-detail-wrapper .list-comment .comment form input{
+        width: 100% !important;
+    }       
+}
+

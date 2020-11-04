@@ -1,0 +1,94 @@
+.product-page-wrapper{
+    @include breadcrumb;
+    @media only screen and (max-width: 1403px) {
+        // .owl-theme .owl-nav.disabled + .owl-dots {
+        //     margin-top: -100px !important;
+        // }
+        
+    }
+    
+    @media only screen and (max-width: 1240px) {
+        // .owl-theme .owl-nav.disabled + .owl-dots {
+        //     margin-top: -120px !important;
+        // }
+    }
+    
+    @media only screen and (max-width: 1100px) {
+        .btn-checkout,.btn-continue{
+            margin-top: 10px;
+            margin-left: -15px;
+        }
+        .main_v2 .list_cate li:hover .sub-menu{
+            margin-left: 200px;
+        }
+    }
+    @media only screen and (max-width: 534px) {
+        .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: -296px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: -286px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 360px) {
+        .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: -286px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 338px) {
+        .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: -286px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 330px) {
+        .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: -286px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 320px) {
+        .owl-theme .owl-nav.disabled + .owl-dots {
+            margin-top: -294px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 600px){
+        .header .cart {
+            text-align:center;
+            .cart_count{
+                right: 166px !important;
+            }
+        }
+        .img-logo{
+            text-align:center;
+        }
+    }
+    @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) { 
+        .header .cart {
+            text-align:center;
+            .cart_count{
+                right: 185px !important;
+            }
+        }
+        .img-logo{
+            text-align:center;
+        }
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+        .header .cart {
+            text-align:center;
+            .cart_count{
+                right: 135px !important;
+            }
+        }
+        .img-logo{
+            text-align:center;
+        }
+    }
+}

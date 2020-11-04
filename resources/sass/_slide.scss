@@ -1,0 +1,24 @@
+.owl-theme .owl-dots .owl-dot span {
+    //background: #D6D6D6;
+    background-color: transparent !important;
+    border: 1px solid #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fff !important;
+}
+
+.owl-dots{
+    position: absolute;
+    top: 94%;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    button:focus {
+        outline: none;
+    }
+}
+@media (max-width: 770px){
+    .owl-dots{
+        display: none !important;
+    }
+}

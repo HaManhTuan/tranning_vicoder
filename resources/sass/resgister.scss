@@ -1,0 +1,60 @@
+.res-page-wrapper{
+    @include breadcrumb;
+    .content_res{
+        margin: 0 auto;
+        .form_res{
+            margin-top: 30px;
+            label{
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.36;
+                letter-spacing: normal;
+                text-align: left;
+                color: #333333;
+                margin-bottom: 10px;
+            }
+            input{
+                width: 441px;
+            }
+            .forgot{
+                a{
+                    text-decoration: none;
+                    text-align: left;
+                    color: #707070;
+                    font-size: 12px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: italic;
+                }
+            }
+            .btn-login{
+                width: 120px;
+                height: 40px;
+                border-radius: 6px;
+                background-color: #fc7703;
+                margin-right: 10px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.36;
+                letter-spacing: normal;
+                text-align: center;
+                color: #ffffff;
+            }
+            .btn-res{
+                width: 120px;
+                height: 40px;
+                border-radius: 6px;
+                border: solid 1px #fc7703;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.36;
+                letter-spacing: normal;
+                text-align: center;
+                color: #fc7703;
+            }
+        }
+    }
+}

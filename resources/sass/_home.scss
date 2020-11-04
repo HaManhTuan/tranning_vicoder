@@ -1,0 +1,9 @@
+.home-page-wrapper{
+    @include breadcrumb;
+    @media  (max-width: 575px) { 
+        .col-smm-6{
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}

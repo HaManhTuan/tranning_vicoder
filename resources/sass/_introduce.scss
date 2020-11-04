@@ -1,0 +1,6 @@
+.introduce-wrapper{
+    @include breadcrumb;
+    .main_v2 .box-title .p_title {
+        padding: 13px !important;
+    }
+}

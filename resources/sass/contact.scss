@@ -1,0 +1,117 @@
+.contact-page-wrapper{
+    @include breadcrumb;
+    .content_contact{
+
+        border-radius: 6px;
+        background-color: #f6f6f6;
+        padding: 15px 20px;
+        margin-bottom: 96px;
+        .title_contact{
+            h5{
+                font-size: $font_size_large;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.31;
+                letter-spacing: normal;
+                text-align: left;
+                color: #242424;
+            }
+        }
+        .body_contact{
+            .infor_contact{
+                form{
+                    .form-group{
+                        .error{
+                            color: chocolate;
+                        }
+                        //float: right;
+                        label{
+                            //margin-right: 25px;
+                            text-align: right;
+                            @media (max-width: 575px) {
+                                text-align: left;
+                            }
+                        }
+                        input{
+                            //width: 255px;
+                            height: 40px;
+                            border-radius: 6px;
+                            border: solid 1px #d8d8d8;
+                            background-color: #ffffff;
+                            padding: 5px 10px;
+                            font-size: 16px;
+                            &:focus{
+                                outline: none;
+                            }
+
+                        }
+                        textarea{
+                            //width: 255px;
+                            border-radius: 6px;
+                            border: solid 1px #d8d8d8;
+                            background-color: #ffffff;
+                            padding: 5px 10px;
+                            font-size: 16px;
+                            vertical-align: middle;
+                            resize:none;
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+                        .btn-cancel{
+                            width: 90px;
+                            height: 40px;
+                            border-radius: 6px;
+                            border: solid 1px #707070;
+                            font-weight: 600;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.36;
+                            letter-spacing: normal;
+                            color: #707070;
+                            margin-right: 5px;
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+                        .btn-send{
+                            width: 90px;
+                            height: 40px;
+                            border-radius: 6px;
+                            border: #ffac1d;
+                            background-color: #ffac1d;
+                            font-size: 14px;
+                            font-weight: 600;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.36;
+                            letter-spacing: normal;
+                            color: #ffffff;
+                            &:focus{
+                                outline: none;
+                            }
+                        }
+                    }
+
+                }
+            }
+            .maps_contact{
+                height: 323px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                iframe{
+                    width: 100%;
+                }
+
+            }
+        }
+        @media (min-width:991px) and(max-width: 1200){
+            .maps_contact{
+                display: inline-block;
+            }
+
+        }
+    }
+}

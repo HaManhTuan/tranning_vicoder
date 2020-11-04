@@ -1,0 +1,27 @@
+
+.footer_ver2{
+    background-color: $box_bg_color;
+    a {
+        color: #707070;
+        font-size: 14px;
+    }
+    &:hover {
+        color: white;
+    }
+    p{
+        color: #707070;
+        font-size: 14px;
+    }
+    .horizontal_line{
+        border: 0.5px solid white;
+    }
+    .logo_footer{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .logo_Social{
+        margin-bottom: 10px;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+}

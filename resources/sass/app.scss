@@ -1,0 +1,124 @@
+
+@import '~bootstrap/scss/bootstrap';
+@import '~jquery-ui/themes/base/all.css';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import "./ui/color";
+//@import "./ui/font";
+@import "./ui/button";
+@import "./breadcrumb";
+@import "./login";
+@import "./resgister";
+@import "./fogot";
+@import "./header";
+@import "./footer";
+@import "./lightslider";
+@import "./owl.carousel";
+@import "./owl.theme.default";
+@import "./slide";
+@import "./home";
+@import "./product";
+@import "./detail_product";
+@import "./new";
+@import "./new_detail";
+@import "./introduce";
+@import "./cate";
+@import "./cart";
+@import "./checkout";
+@import "./contact";
+@import "./custom";
+body {
+  color: $default_text_color;
+  background-color: $default_bg_color;
+  font-size: $font_size_normal;
+  //font-family: $font_family;
+  input,button:focus{
+    outline: none;
+    }
+  header {
+    .bg-dark {
+      background-color: $main_header_bg_color !important;
+    }
+  }
+  .main {
+    min-height: calc(100vh - 260px);
+  }
+  footer {
+    padding-top: 20px;
+    background: $main_footer_bg_color;
+    color: #fff;
+    a {
+      color: #fff;
+      &:hover {
+        color: #2980b9;
+        text-decoration: none;
+      }
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+      .btn-checkout,.btn-continue{
+          margin-top: 10px;
+          margin-left: -15px;
+      }
+      .main_v2 .list_cate li:hover .sub-menu{
+          margin-left: 200px;
+      }
+  }
+  @media only screen and (max-width: 600px){
+      .header .cart {
+          text-align:center;
+          .cart_count{
+              right: 166px !important;
+          }
+      }
+      .img-logo{
+          text-align:center;
+      }
+  }
+  @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+      .header .cart {
+          text-align:center;
+          .cart_count{
+              right: 185px !important;
+          }
+      }
+      .img-logo{
+          text-align:center;
+      }
+  }
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .header .cart {
+          text-align:center;
+          .cart_count{
+              right: 135px !important;
+          }
+      }
+      .img-logo{
+          text-align:center;
+      }
+  }
+    }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+        .box-title .title_contact .p_contact{
+            font-size: 13px;
+        }
+        .list_product {
+            .pro_name{
+                font-size: 12px !important;
+            }
+            .price{
+                font-size: 14px !important;
+            }
+            .sale{
+                font-size: 12px !important;
+            }
+        }
+    }
