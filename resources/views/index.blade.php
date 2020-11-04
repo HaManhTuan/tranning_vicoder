@@ -1,4 +1,4 @@
-@extends('layout.master') 
+@extends('layout.master')
 @section('content')
 @include('layout.slider')
 <div class="home-page-wrapper">
@@ -13,7 +13,24 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
+                        </div>
+                     </a>
+                     <div class="card-body">
+                     <p class="text-center pro_name"><a href="/chi-tiet" class="">{{ $contact->full_name}}</a></p>
+                        <div class="price_list text-center">
+                           <p class="price">Giá bán: 73,260,000</p>
+                           <p class="sale">Giá NY: 149,000,000</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product_item">
+                  <div class="card item">
+                     <a href="/chi-tiet">
+                        <div class="card-img">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt=""
+                           style=" background-image: url('../../frontend/images/4d22847a-99ba-495d-bd34-5387c4920f3f.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -29,8 +46,7 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" 
-                           style=" background-image: url('../../assets/images/4d22847a-99ba-495d-bd34-5387c4920f3f.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -46,7 +62,7 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -62,7 +78,7 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -78,7 +94,7 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -94,7 +110,7 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -110,23 +126,7 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
-                        </div>
-                     </a>
-                     <div class="card-body">
-                        <p class="text-center pro_name"><a href="/chi-tiet" class="">Đồng hồ Longines L</a></p>
-                        <div class="price_list text-center">
-                           <p class="price">Giá bán: 73,260,000</p>
-                           <p class="sale">Giá NY: 149,000,000</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product_item">
-                  <div class="card item">
-                     <a href="/chi-tiet">
-                        <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -182,7 +182,7 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -198,7 +198,7 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -213,7 +213,7 @@
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">
@@ -224,12 +224,12 @@
                         </div>
                      </div>
                   </div>
-               </div>     
+               </div>
                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 product_item">
                   <div class="card item">
                      <a href="/chi-tiet">
                         <div class="card-img">
-                           <img src="./assets/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../assets/images/K2241620_FXA.png');">
+                           <img src="./frontend/images/background.png" class="card-img-top center cover" alt="" style=" background-image: url('../../frontend/images/K2241620_FXA.png');">
                         </div>
                      </a>
                      <div class="card-body">

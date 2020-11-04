@@ -25,6 +25,7 @@
   });
 </script>
  @endif
+
 <div class="container main_v2">
     <div class="product_new row">
         <div class="col-lg-9 col-md-12 col-sm-12">

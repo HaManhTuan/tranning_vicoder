@@ -1,0 +1,9 @@
+1. ContactServiceProvider Package -> kế thừa từ ServiceProvider: trung tâm việc khởi tạo các ứng dụng. Cấu hình các ứng dụng
+ - Register -> Đăng kí vào service container
+ - boot -> hàm này được gọi khi tất cả các các service provider được đăng kí
+ - provider -> Cho biết provider sẽ trả về service gì ?
+
+
+2. Config -> contact
+ - Đăng kí các service provider
+
