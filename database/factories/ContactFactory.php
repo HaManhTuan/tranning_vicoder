@@ -15,5 +15,8 @@ $factory->define(Contact::class, function (Faker $faker) {
         'first_name' => $firstName,
         'last_name'  => $lastName,
         'address'    => $faker->address,
+        'phone_number'    => $faker->phone_number,
+        'fax'    => $faker->fax,
+        'phone_ct'    => $faker->phone_ct,
     ];
 });

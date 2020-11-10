@@ -13,6 +13,7 @@
 </div>
 
 @if(Session::has('flash_message_success'))
+
 <script>
   $(document).ready(function() {
       $.notify("{{ Session::get('flash_message_success') }}", "success");

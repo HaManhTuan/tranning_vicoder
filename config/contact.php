@@ -5,11 +5,12 @@ return [
     'namespace'       => env('CONTACT_COMPONENT_NAMESPACE', ''),
 
     'models'          => [
-        'contact' =>        App\Contacts::class,
+        'contact' => App\Contact::class,
+        'contact_meta' => VCComponent\Laravel\Contact\Entities\ContactMeta::class
     ],
 
     'transformers'    => [
-        'contact' =>        App\Transformers\ContactTransformer::class,
+        'contact' => VCComponent\Laravel\Contact\Transformers\ContactTransformer::class,
     ],
 
     'auth_middleware' => [
